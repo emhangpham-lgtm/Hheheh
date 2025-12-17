@@ -91,8 +91,8 @@ Tabs.Main2:AddButton({
 		}
 		loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/a8957b1a95180cd24674d5c5fa094dafb64d7cdd475998cd59bea1c7e7b87a55/download", true))()-- 👈 link script tải
 	end
-})
-```.    .     Tabs.Main2:AddButton({
+}) 
+  Tabs.Main2:AddButton({
 	Title = "jack👾👾",                             -- 👈 tên nút hiển thị
 	Description = "script này dùng tạm đang update",-- 👈 mô tả
 	Callback = function()
