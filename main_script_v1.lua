@@ -79,7 +79,7 @@ Tabs.Main0:AddButton({
 })
 
 ------------------------------------------------
--- TAB 2: Ví dụ thêm script
+-- TAB 2:loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))()
 ------------------------------------------------
 Tabs.Main1:AddButton({
 	Title = "auto join 10m👾👾",                             -- 👈 tên nút hiển thị
@@ -91,7 +91,4 @@ Tabs.Main1:AddButton({
 		}
 		loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/a8957b1a95180cd24674d5c5fa094dafb64d7cdd475998cd59bea1c7e7b87a55/download", true))()-- 👈 link script tải
 	end
-})--TAB 2:loadstring(game:HttpGet("https://raw.githubusercontent.com
-/ily123950/Vulkan/refs/heads/main/Tr"))()
---TAB 3: 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
+})
