@@ -44,8 +44,8 @@ local Window = Fluent:CreateWindow({
 -- 📑 Các tab (mục chính)
 local Tabs = {
 	Main0 = Window:AddTab({ Title = "một số kênh🤓" }),  -- 👈 đổi tên tab 1
-	Main1 = Window:AddTab({ Title = "grow a gaden 🌱🌴🌵🌲" }),  -- 👈 đổi tên tab 2
-	Main2 = Window:AddTab({ Title = "thối não " }),     -- 👈 đổi tên tab 3
+	Main1 = Window:AddTab({ Title = "thối não 🌱🌴🌵🌲" }),  -- 👈 đổi tên tab 2
+	Main2 = Window:AddTab({ Title = "gâu gâu " }),     -- 👈 đổi tên tab 3
 	Main3 = Window:AddTab({ Title = "99 đêm🥷" }),        -- 👈 đổi tên tab 4
 	Main4 = Window:AddTab({ Title = "blox fruit🍎" }),    -- 👈 đổi tên tab 5
 	Main5 = Window:AddTab({ Title = "plan vs branro🌲🐘t" }) -- 👈 đổi tên tab 6
@@ -91,4 +91,5 @@ Tabs.Main1:AddButton({
 		}
 		loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/a8957b1a95180cd24674d5c5fa094dafb64d7cdd475998cd59bea1c7e7b87a55/download", true))()-- 👈 link script tải
 	end
-})
+})--TAB 2:loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))()
+--TAB 3:@jack 827: loadstring(game:HttpGet("https://raw.githubusercontent.com/Ninja10908/S4/refs/heads/main/Kurdhub"))()
