@@ -79,7 +79,7 @@ Tabs.Main0:AddButton({
 })
 
 ------------------------------------------------
--- TAB 2:loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))()
+-- TAB 2:
 ------------------------------------------------
 Tabs.Main1:AddButton({
 	Title = "auto join 10m👾👾",                             -- 👈 tên nút hiển thị
@@ -90,5 +90,16 @@ Tabs.Main1:AddButton({
 			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
 		}
 		loadstring(game:HttpGet("https://api.junkie-development.de/api/v1/luascripts/public/a8957b1a95180cd24674d5c5fa094dafb64d7cdd475998cd59bea1c7e7b87a55/download", true))()-- 👈 link script tải
+	end
+})
+Tabs.Main1:AddButton({
+	Title = "hn hud🌱",                             -- 👈 tên nút hiển thị
+	Description = "script này ngon á đủ chức năng cả😃",-- 👈 mô tả
+	Callback = function()
+		local Settings = {
+			JoinTeam = "Pirates";   -- 👈 team mặc định: Pirates hoặc Marines
+			Translator = true;      -- 👈 bật dịch sang tiếng Việt nếu có
+		}
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))() -- 👈 link script tải
 	end
 })
